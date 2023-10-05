@@ -1,0 +1,208 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+body{
+    background: rgb(20, 20, 20);
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.timebox{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 200px;
+    background: rgb(20, 20, 20);
+    
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+   
+    cursor: pointer;
+    box-shadow: 0px 0px 32px 0 rgba(0, 119, 255, 0.37);
+    transition: all 2s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+.timeboxtwo{
+   transform: rotateX(90deg);
+
+}
+.timeboxtree{
+    position: absolute;
+    
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(135deg, rgb(255, 0, 0),rgb(253, 0, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    left: 43%;
+    top: 280px;
+    box-shadow: 0px 0px 32px 0 rgba(0, 119, 255, 0.37);
+    transform: rotateX(90deg);
+}
+.timeboxtreetwo{
+    transform: rotateX(180deg);
+
+}
+.twelve{
+    position: absolute;
+  
+    top: 1px;
+    color: white;
+    
+}
+.six{
+    position: absolute;
+    color: white;
+
+    top: 175px;
+
+}
+.three{
+    position: absolute;
+    color: white;
+    right: 10px;
+
+ 
+}
+.nine{
+    position: absolute;
+    color: white;
+    left: 10px;
+    
+
+}
+/* .circle{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    top: 9px;
+    bottom: 10px;
+    background-color: white;
+    
+    border-radius: 50px;
+
+} */
+/* .hour{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background-color: white;
+    left: 110px;
+    bottom: 75px;
+    transform-origin: top left;
+    border-radius: 50px;
+}
+.minus{
+    position: absolute;
+    width: 5px;
+    height: 70px;
+    background-color: white;
+    left: 150px;
+    
+    bottom: 43px;
+    transform-origin: top left;
+    border-radius: 50px;
+
+} */
+.hour{
+    position: absolute;
+    transform-origin: center bottom;
+    height: 50px;
+    width: 2px;
+    left: 149px;
+    background-color: rgb(255, 255, 255);
+    top: 47px;
+}
+.minus{
+    position: absolute;
+    transform-origin: center bottom;
+    height: 85px;
+    width: 2px;
+    top: 12px;
+  
+    background-color: rgb(255, 255, 255);
+
+
+}.sec{
+    position: absolute;
+    transform-origin: center bottom;
+    height: 85px;
+    width: 2px;
+    top: 12px;
+  
+    background-color: rgb(255, 255, 255);
+}
+.digitalbox{    
+    
+    position: absolute;
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    background: linear-gradient(-45deg,#410c8c,#7462ff,#7777b0,#23d5ab);
+    border-radius: 70px;
+    animation: xeexee 10s ease-in-out infinite;
+    transition: all 2s ease-in-out;
+    
+}
+.digitalbox1{
+    width: 500px;
+    height: 250px;
+    
+}
+@keyframes xeexee{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.delete{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    top: 10px;
+    left: 5px;
+    background: rgb(20, 20, 20);
+    box-shadow: 0px 0px 32px 0 rgba(0, 119, 255, 0.37);
+    border-radius: 70px;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+   
+}
+.delete1{
+    width: 490px;
+
+    height: 230px;
+}
+.textbox{
+    font-family: digital;
+    font-size: 0px;
+    transition: all 2s ease-in-out;
+
+}
+.textbox1{
+    font-size: 110px;
+  
+   color: rgb(14, 54, 199);
+}
